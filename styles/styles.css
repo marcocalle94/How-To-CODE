@@ -8,9 +8,9 @@
 .THeader {
     background-color: black;
     height: 100px;
-    border: 1px solid red;
     width: 100%;
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
 }
 
 .THeader_logo{
@@ -23,23 +23,31 @@
 .THeader_logo h1 {
     color: white;
     height: 30px;
-    border: 1px solid red;
+    border: 1px solid yellow;
 
 }
 .THeader_logo h2 {
     color: white;
     height: 30px;
-    border: 1px solid red;
+    border: 1px solid yellow;
 }
 
 
 .THeader_menu {
-    display: block;
-    border: 1px solid red;
     height: 60px;
+    margin-top: 20px;
+    margin-right: 10px;
     width: 200px;
+    border: 1px solid yellow;
 }
-
+.THeader_menu ul {
+    text-align: center;
+    list-style: none; 
+    border: 1px solid yellow;
+}
 .THeader_menu ul li {
     color: white;
+    display: inline-block;
+    margin: 20px 5px 0;
+    border: 1px solid yellow;
 }
